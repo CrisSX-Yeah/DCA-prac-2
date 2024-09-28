@@ -1,0 +1,48 @@
+# Ignore all node_modules for the frontend
+/frontend/node_modules
+/frontend/build
+
+# Ignore npm and yarn lock files
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+/frontend/package-lock.json
+/frontend/.env
+
+# Ignore logs
+*.log
+logs/
+*.log.*
+
+# Ignore IDE specific files
+*.idea/
+*.vscode/
+*.swp
+
+# Ignore OS specific files
+.DS_Store
+Thumbs.db
+
+# Ignore build and target directories for the backend (Spring Boot)
+# Maven specific
+/backend/target/
+# Gradle specific (in case you're using Gradle)
+.gradle/
+/build/
+
+# Ignore configuration files and sensitive data
+/backend/src/main/resources/application.properties
+/backend/src/main/resources/application.yml
+
+# Ignore compiled Java classes and packages
+/backend/**/*.class
+/backend/**/*.jar
+/backend/**/*.war
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
+~*
