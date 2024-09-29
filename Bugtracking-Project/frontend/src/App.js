@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; // Importa React Router
 import HomePage from './components/HomePage';
 import RegisterPage from './components/RegisterPage';
+import LoginPage from './components/LoginPage';
 
 function App() {
   return (
@@ -10,7 +11,8 @@ function App() {
         {/* Define las rutas de la aplicación */}
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/registro" element={<RegisterPage />} />
+          <Route path="/register" element={<RegisterPage />} />
+          <Route path="/login" element={<LoginPage />} />
         </Routes>
       </div>
     </Router>

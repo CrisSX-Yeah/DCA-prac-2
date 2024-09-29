@@ -8,7 +8,11 @@ const HomePage = () => {
   const navigate = useNavigate(); // Inicializa useNavigate para la navegación
 
   const handleRegisterClick = () => {
-    navigate('/registro'); // Redirige a la página de registro
+    navigate('/register'); // Redirige a la página de registro
+  };
+
+  const handleLoginClick = () => {
+    navigate('/login'); // Redirige a la página de registro
   };
   
   return (
@@ -18,8 +22,8 @@ const HomePage = () => {
         <h1 className="homepage-title">Local Bug Tracker</h1>
       </div>
       <div className="homepage-content">
-        <button className="btn btn-register" onClick={handleRegisterClick}>Registrarse</button>
-        <button className="btn btn-login">Iniciar Sesión</button>
+        <button className="btn btn-register" onClick={handleRegisterClick}>Register</button>
+        <button className="btn btn-login" onClick={handleLoginClick}>Login</button>
       </div>
     </div>
   );
