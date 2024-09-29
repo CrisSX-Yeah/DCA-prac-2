@@ -1,0 +1,22 @@
+/* Navbar styles */
+.navbar {
+    width: 100%;
+    background-color: #000; /* Black background */
+    height: 60px; /* Height of the navbar */
+    display: flex;
+    align-items: center; /* Vertically center content */
+    justify-content: center; /* Horizontally center content */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    position: fixed; /* Sticks the navbar at the top */
+    top: 0;
+    z-index: 1000; /* Ensure the navbar stays on top of other elements */
+  }
+  
+  .navbar-content {
+    width: 90%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between; /* Space out items when added later */
+    align-items: center;
+  }
+  

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './RegisterPage.css';
+import '../css/RegisterPage.css';
 
 const RegisterPage = () => {
   // Estados para controlar los valores de los campos del formulario

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './LoginPage.css';
+import '../css/LoginPage.css';
 
 const LoginPage = () => {
     // Estados para controlar los valores de los campos del formulario
