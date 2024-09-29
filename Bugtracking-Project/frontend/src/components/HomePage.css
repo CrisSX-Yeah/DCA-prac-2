@@ -1,0 +1,65 @@
+/* Contenedor principal */
+.homepage-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+  
+  /* Cabecera */
+  .homepage-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .homepage-logo {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .homepage-title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  /* Contenido */
+  .homepage-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  
+  /* Botones */
+  .btn {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .btn-register {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .btn-register:hover {
+    background-color: #218838;
+  }
+  
+  .btn-login {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-login:hover {
+    background-color: #0056b3;
+  }
+  
